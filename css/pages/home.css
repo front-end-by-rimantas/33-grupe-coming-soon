@@ -10,8 +10,13 @@
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
 .hero {
+    min-height: 100vh;
     text-align: center;
     color: #fff;
+    background-image: url(../../img/hero-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .hero .logo {
     width: 100%;
@@ -24,10 +29,12 @@
     margin-bottom: 20px;
     font-size: 55px;
     text-transform: uppercase;
+    color: #333;
 }
 .hero .description {
     margin-bottom: 60px;
     font-size: 20px;
+    color: #555;
 }
 .hero .clock {
     margin-bottom: 60px;
