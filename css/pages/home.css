@@ -42,3 +42,26 @@
 .hero .form {
     margin-bottom: 10px;
 }
+
+.main-content > .row {
+    display: flex;
+    justify-content: space-between;
+}
+.main-content .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-content .column-left {
+    width: 50%;
+}
+.main-content .column-right {
+    width: 40%;
+}
+.main-content .column a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.main-content .column a:hover {
+    text-decoration: underline;
+}
