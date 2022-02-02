@@ -1,0 +1,21 @@
+.clock {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+}
+.clock > .time {
+    flex: 1;
+    padding: 10px;
+}
+.clock > .time > .value {
+    font-size: 60px;
+    font-weight: bold;
+}
+.clock > .time > .label {
+}
+
+@media (max-width: 500px) {
+    .clock {
+        flex-direction: column;
+    }
+}
