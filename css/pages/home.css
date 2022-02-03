@@ -6,6 +6,7 @@
 
 /* components */
 @import '../components/button.css';
+@import '../components/clock.css';
 
 /* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
 
@@ -17,6 +18,12 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+.hero > .row-short {
+    display: flex;
+    flex-direction: column; /*  row   column*/
+    justify-content: center; /* hor   ver*/
+    align-items: center; /*     ver   hor*/
 }
 .hero .logo {
     width: 100%;
