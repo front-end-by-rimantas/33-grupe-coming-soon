@@ -101,6 +101,7 @@
     transition: all 0.5s;
 }
 .footer .icon:hover {
+    text-decoration: none;
     color: var(--primary-color);
     background-color: #fff;
 }
@@ -136,6 +137,12 @@
 }
 .footer .bottom-trio > p:first-of-type::before {
     display: none;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
 }
 
 @media (max-width: 700px) {
