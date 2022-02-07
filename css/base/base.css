@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 body * {
     margin: 0;
@@ -13,6 +17,7 @@ body {
 
 :root {
     --primary-color: #03a8f5;
+    --secondary-color: #ea1e63;
 }
 
 .bg-primary {
