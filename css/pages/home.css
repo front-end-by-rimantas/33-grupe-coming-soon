@@ -76,6 +76,16 @@
     text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+    .main-content > .row {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .main-content .column {
+        width: 100%;
+    }
+}
+
 .footer {
     padding-top: 0;
     text-align: center;
