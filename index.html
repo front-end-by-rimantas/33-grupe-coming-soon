@@ -42,8 +42,9 @@
                 </div>
             </div>
             <form class="form">
-                SUBSCRIBE FORM
-                <div class="btn">Subscribe now</div>
+                <label for="sub_email">Email</label>
+                <input id="sub_email" type="email" placeholder="Email" required>
+                <button type="submit" class="btn">Subscribe now</button>
             </form>
             <div class="mouse"></div>
         </div>
@@ -92,8 +93,13 @@
                 <h2>Have any question?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam explicabo officiis, ex aliquid <a href="mailto:vardenis@pastenis.xyz">vardenis@pastenis.xyz</a> qui pariatur. Accusantium quidem, cum cumque numquam maxime culpa eum id commodi perferendis. Expedita, itaque dignissimos!</p>
                 <form class="form">
-                    MESSAGE FORM
-                    <div class="btn">Send message</div>
+                    <label for="msg_name">Name</label>
+                    <input id="msg_name" type="text" placeholder="Name" required>
+                    <label for="msg_email">Email</label>
+                    <input id="msg_email" type="email" placeholder="Email" required>
+                    <label for="msg_msg">Message</label>
+                    <textarea id="msg_msg" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn">Send message</button>
                 </form>
             </div>
         </div>
